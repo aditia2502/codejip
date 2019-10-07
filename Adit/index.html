@@ -11,10 +11,24 @@
             margin: 0 auto;
             color:#181C0E;
         }
-        .badan {
+        .badan-satu {
             width: 400px;
             height: 200px;
             position: relative;
+            margin-bottom: 25px;
+        }
+
+         .badan-dua {
+            background: #FAFF00;
+            border-radius: 15px;
+            width: 340px;
+            height: 140px;
+            position: relative;
+            padding: 30px 30px;
+            display: none;
+        }
+        .badan-satu:hover  + .badan-dua {
+            display:block;
         }
         .atas {
             height: 140px;
@@ -50,8 +64,9 @@
         .foto-profile{
             display: block;
             margin: 0 auto;
-            width: 50px;
-            height: 50px;
+            width: 75px;
+            height: 75px;
+            padding-top: 35px;
         }
         .isi{
             width: 300px;
@@ -66,7 +81,7 @@
     </style>
 </head>
 <body>
-    <div class='badan'>
+    <div class='badan-satu'>
         <div class='atas'>
             <div class='atas-kiri'>
                 <div class="isi">
@@ -79,13 +94,17 @@
                 </div>
             </div>
             <div class="atas-kanan">
-                <div class='foto-profile'></div>
                 <img src="profile.jpg" alt="profile" class='foto-profile'>
             </div>
         </div>
         <div class='bawah'>
             <p> Halo, namaku Aditia! Salam kenal!</p>
         </div>
+    </div>
+    <div class='badan-dua'>
+        <p> Nama Lengkap : Aditia </p>
+        <p> TTL : Depok, 25 Februari 2001 </p>
+        <p> Alamat : Depok </p> 
     </div>
 </body>
 </html>
