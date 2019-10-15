@@ -1,0 +1,29 @@
+p {
+	color: red;
+}
+.biru {
+	color: blue;
+	position: absolute;
+}
+.kotak-biru {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	border: 10px solid red;
+	padding: 20px;
+	margin: 20px;
+}
+.kotak-hijau{
+	height: 75%;
+	background-color: green;
+}
+.kotak-hijau img{
+	display: block;
+	height: 50%;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+.kotak-merah {
+	height: 25%;
+	background-color: red;
+}
