@@ -1,0 +1,24 @@
+.jumbotron { background-image:url(blue.jpg);
+		background-size: cover;
+	     height: 900px;
+		 text-align:center;margin-top: 120px;
+	}
+	.jumbotron .display-4 {
+		color: white;font-size:200px
+		;font-style: inherit;
+		font-variant-numeric;
+		color:white;
+		font-size:50px;font-style:initial;font-variant-position:margin-top 200px;}
+	.jumbotron p {
+		color: white;}
+
+.carousel-item {height:670px;}
+.carousel-item img {margin-top: -120px;}.grid-2 {
+  display: grid; background-image:url(sok.jpg);
+  grid-template-columns: 150px 20px 150px 20px 150px;
+  grid-template-rows: auto 20px auto 20px auto;}
+body 
+{
+    background-image:url(asiq.jpg);
+    font-family: sans-serif
+}
