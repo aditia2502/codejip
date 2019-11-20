@@ -1,0 +1,9 @@
+body{background-color:blue }
+@font-face {font-family:'tulisan_keren';src:url(comic.ttf);
+}
+h1{
+	font-family: 'tulisan_keren';
+	font-size: 45pt;
+	font-variant: inherit;text-decoration-color: transparent;color: black;
+}
+grid-2{background-position:center;}
