@@ -1,0 +1,45 @@
+/*CSS oleh Deni Septian*/
+body {
+	background-image: url("themet.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img.box {
+	opacity: 1.0;
+	border-radius: 50%;
+}
+
+div.box {
+	margin: 20px;
+	padding: 10px;
+	background-color: black;
+	opacity: 0.8;
+}/*CSS oleh Deni Septian*/
+
+/*CSS OLEH ADINDA WILHELMINA*/
+@font-face  {font-family:'tulisan-cuy';src:url(comic.ttf);
+}
+h1{
+	font-family: "tulisan-cuy";font-size: 37pt;
+font-variant: inherit;text-decoration-color: transparent;color:#00BFFF;text-align: center;
+}
+h2 {
+	color:red;
+	font-family: Cooper Black;
+	box-shadow: 10px 15px 0 0; padding: 2px; display: inline-block; background: white; margin:2%;
+}
+
+
+table {
+	color: white;
+	font-family: Elephant;
+}
+
+footer {
+	text-align: center;
+	font-family: Libre Franklin, Sans Serif;
+	background-color: red;
+	color: white;
+}
+/*CSS OLEH ADINDA WILHELMINA/*

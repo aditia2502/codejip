@@ -1,5 +1,5 @@
-.jumbotron { background-image:url(blue.jpg);
-		background-size: cover;
+/*CSS OLEH Intan Dahayu*/.jumbotron { background-image:url(blue.jpg);
+		background-size:contain;
 	     height: 900px;
 		 text-align:center;margin-top: 120px;
 	}
@@ -7,11 +7,14 @@
 		color: white;font-size:200px
 		;font-style: inherit;
 		font-variant-numeric;
-		color:white;
+		color:black;
 		font-size:50px;font-style:initial;font-variant-position:margin-top 200px;}
-	.jumbotron p {
-		color: white;}
-
+	@font-face  {font-family:'tulisan-cuy';src:url(a2.ttf);
+}
+h1{
+	font-family: "tulisan-cuy";font-size: 60pt;
+font-variant: inherit;text-decoration-color: transparent;color:red;text-align: center;
+}
 .carousel-item {height:670px;}
 .carousel-item img {margin-top: -120px;}.grid-2 {
   display: grid; background-image:url(sok.jpg);
@@ -22,3 +25,4 @@ body
     background-image:url(asiq.jpg);
     font-family: sans-serif
 }
+/*CSS OLEH Intan Dahayu*/

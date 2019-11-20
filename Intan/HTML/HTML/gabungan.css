@@ -1,0 +1,50 @@
+body{background-image:url(vintage.jpg); font-family: sans-serif;}
+
+.navbar a{
+	padding: 15px;
+	background-image:url(marble1.jpg);
+	text-decoration: none; text-decoration-color:transparent;
+	color: white;font-family: cursive;font-size: 15px;
+}
+.Ya{width: 1150px; margin: 10px auto; 
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+@font-face {font-family:'tulisan_keren';src:url(merry.ttf);
+}
+h1{
+	font-family: 'tulisan_keren';
+	font-size: 45pt;
+	font-variant: inherit;text-decoration-color: transparent;color: black;
+}
+@font-face {font-family:'tulisan-bagus';src:url(a2.ttf);
+}
+h6{
+	font-family: 'tulisan-bagus';
+	font-size: 15pt;
+	font-variant: inherit;text-align: center;
+}
+
+h5{font-size: 15pt;font-variant-numeric:inherit;
+}
+
+h4{font-size: 18pt;font-variant: inherit;
+}
+
+@font-face  {font-family:'tulisan-cuy';src:url(comic.ttf);
+}
+h2{
+	font-family: "tulisan-cuy";font-size: 37pt;
+font-variant: inherit;text-decoration-color: transparent;color:#00BFFF;text-align: center;
+}
+
+
+@font-face  {font-family:'tulisan-wak';src:url(m.ttf);
+}
+h3{font-family: "tulisan-wak";font-size: 14pt;
+font-variant: inherit;text-decoration-color: transparent;color:black;}
